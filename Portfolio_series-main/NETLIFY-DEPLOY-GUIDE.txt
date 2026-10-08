@@ -1,0 +1,19 @@
+UTKARSH KUMAR PORTFOLIO — NETLIFY DEPLOYMENT
+
+This is the source project prepared for a Netlify build deployment.
+
+RECOMMENDED METHOD (connect via GitHub):
+1. Extract this ZIP on your computer.
+2. Create a GitHub account/repository and upload the CONTENTS of this folder.
+3. In Netlify, choose Add new site > Import an existing project.
+4. Connect GitHub and select this repository.
+5. Build command: npm run build
+6. Publish directory: dist
+7. Click Deploy site.
+
+The included netlify.toml already sets the build command, publish directory, and Node.js 22.
+
+IMPORTANT:
+- This is a React + Vite source project, not a prebuilt static website folder. Do not drag the entire source ZIP into Netlify's manual deploy dropzone; that method expects the built output.
+- The original build check encountered incomplete/missing type definitions in the local workspace, so the production build has not been verified here. The build script is set to Vite's production build, which performs the bundling without the separate TypeScript type-check step. Check the Netlify deploy log and resolve any build errors shown there.
+- Review the live site after deployment, especially contact links, portrait, and resume download.
